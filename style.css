@@ -1,0 +1,91 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background-color:#fff;
+}
+
+/* #-----------------card----------------- */
+
+#main{
+    position: absolute;
+    top:25%;
+    left:42.5%;
+}
+#card1,#card2,#card3,#card4,#card5,#card6,#card7{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.5);
+    background-position: center;
+    background-size: cover;
+    border:8px solid #fff;
+    border-radius:4px;
+    transition: all 0.3s ease; 
+}
+#card1{
+    background-image: url("img/1.jpg");
+    transform: translateX(0px) scale(2.0);
+    z-index: 9999;
+}
+#card2{
+    background-image: url("img/2.jpg");
+    transform: translateX(-200px) scale(1.5);
+    z-index: 999;
+}
+#card3{
+    background-image: url("img/3.jpg");
+    transform: translateX(-300px) scale(1.0);
+    z-index: 99;
+}
+#card4{
+    background-image: url("img/4.jpg");
+    transform: translateX(-400px) scale(0.5);
+    z-index: 9;
+}
+#card5{
+    background-image: url("img/5.jpg");
+    transform: translateX(200px) scale(1.5);
+    z-index:999;
+}
+#card6{
+    background-image: url("img/6.jpg");
+    transform: translateX(300px) scale(1.0);
+    z-index: 99;
+}
+#card7{
+    background-image: url("img/7.jpg");
+    transform: translateX(400px) scale(0.5);
+    z-index: 9;
+}
+
+/* #----------------buttons-------------- */
+#prev{
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    background-image:url("img/ios-arrow-back.svg");
+    background-position: center;
+    background-size:40px;
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+#next{
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    background-image:url("img/ios-arrow-forward.svg");
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    /* border: 2px solid #000; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right:5%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
